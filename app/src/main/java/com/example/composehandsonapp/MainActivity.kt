@@ -157,11 +157,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     }
                 )
             }
-//            ElevatedButton(
-//                onClick = { expanded = !expanded }
-//            ) {
-//                Text(if (expanded) "Show less" else "Show more")
-//            }
+            ElevatedButton(
+                onClick = { expanded = !expanded }
+            ) {
+                Text(if (expanded) "Show less" else "Show more")
+            }
         }
     }
 }
